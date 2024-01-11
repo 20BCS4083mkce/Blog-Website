@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Roboto&display=swap');
+
+.skeleton
+{
+  width: 93%;
+  margin-top: 26px;
+  margin-left: 50px;
+}
+.ant-spin-container
+{
+  margin-top: 26px;
+  margin-left: 50px;
+  margin-right: 50px;
+  .ant-table-thead .ant-table-cell
+  {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .ant-table-row {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(161, 165, 183);
+  }
+
+}
+.action-btn
+{
+  gap:1rem;
+
+  .action-btn-delete
+  {
+    background-color: #f1416c;
+    color: white;
+  }
+}

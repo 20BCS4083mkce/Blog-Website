@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Roboto&display=swap');
+
+.Preview-page{
+ width: 100hv;
+  height: 100hv;
+}
+.layout {
+  .layout-header {
+    .layout-header-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      align-content: space-between;
+      width: 100%;
+
+      .layout-header-item-left {
+        color: white;
+        gap: 3rem;
+        align-items: center;
+        .layout-header-item-left-menu{
+          align-items: center;
+          justify-items: center;
+          justify-content: space-evenly;
+          width: 190px;
+          gap:2rem;
+        }
+          .menu-item {
+            color: rgba(255, 255, 255, 1);
+            font-family: 'Roboto', sans-serif;
+            font-size: 15px;
+            font-weight: 400;
+            cursor: pointer;
+            color: #858585;
+
+            &:hover {
+              color: rgba(255, 255, 255, 0.8);
+
+            }
+
+            &.active {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              height: 40px;
+              width: 100px;
+              color: rgb(255, 255, 255);
+              font-family: 'Roboto', sans-serif;
+              font-size: 15px;
+              font-weight: 400;
+              border: 2px solid rgb(36, 36, 36);
+              background-color: rgb(36, 36, 36);
+              border-radius: 6px;
+
+            }
+          }
+      }
+
+      .layout-header-item-right {
+        display: flex;
+        width: 36px;
+        height: 36px;
+        border-radius: 9px;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+  .layout-layout-content
+  {
+    height: 100vh;
+  }
+}

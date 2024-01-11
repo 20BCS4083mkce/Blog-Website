@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Roboto&display=swap');
+
+
+.Post-layout
+{
+  .Post-layout-header
+  {
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 26px;
+    .Post-layout-header-left
+    {
+      font-family: 'Roboto', sans-serif;
+      font-size: 22px;
+      font-weight: 400;
+      color: rgb(24, 28, 50);
+    }
+    .Post-layout-header-right
+    {
+      gap:1rem;
+      align-items: center;
+    }
+  }
+}

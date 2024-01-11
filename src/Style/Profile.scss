@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Roboto:wght@400;500&display=swap');
+.ant-avatar-image,.ant-avatar{
+  width: 36px;
+  height: 36px;
+}
+.custom-dropdown {
+
+  width: 150px;
+  height: 103px;
+
+  .dropdown-item {
+
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+
+    .icon {
+      font-size: 18px;
+    }
+
+  }
+}
+.ant-modal-content{
+
+  width:436px;
+  height: 500px;
+  line-height: 30px;
+  .ant-form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    gap:0.7rem;
+  }
+  .ant-modal-title{
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+
+  }
+  .ant-form-item-required
+  {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+
+
+  }
+
+  .modal-form-input {
+    height: 48px;
+    width: 375.5px;
+    background-color: #F1F1F2;
+  }
+  .modal-fotter-button
+  {
+    border-radius: 6px;
+    width: 100px;
+    height: 48px;
+  }
+  .modal-form-upload-button
+  {
+    width: 99px;
+    height: 30px;
+    font-size: 12px;
+    position: absolute;
+    right: 30px;
+    top:9px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: center !important;
+
+  }
+}
+
+
+
+
+
+
+
+

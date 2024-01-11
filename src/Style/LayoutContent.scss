@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
+
+.Card
+{
+  background-color: white;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.03), 0 1px 6px -1px rgba(0, 0, 0, 0.02), 0 2px 4px 0 rgba(0, 0, 0, 0.02);
+  height: 88%;
+  border-radius: 6px;
+  padding: 2%;
+  .Card-header
+  {
+    gap: 1rem;
+    align-items: center;
+    .Card-header-Avatar-image
+    {
+      width: 50px;
+      height: 50px;
+      border-radius: 6px;
+    }
+    .Card-header-detail
+    {
+      flex-direction: column;
+      justify-content: center;
+      font-family: 'Roboto', sans-serif;
+      .Card-header-detail-name
+      {
+        color: rgb(63, 66, 84);
+        font-weight: 400;
+        font-size: 15px;
+      }
+      .Card-header-detail-date
+      {
+        color: rgb(161, 165, 183);
+        font-size: 13px;
+        font-weight: 400;
+      }
+    }
+  }
+
+  .Card-content
+  {
+    flex-direction: column;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    .ant-image-img {
+
+        border-radius: 6px;
+        height: 300px;
+      }
+
+    .Card-content-title
+    {
+      font-size: 20px;
+      font-weight: 400;
+      margin-top: 15px;
+    }
+    .Card-content-para
+    {
+      font-size: 16px;
+      color: rgb(94, 98, 120)
+    }
+  }
+}

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Roboto&display=swap');
+
+.Search-Box
+{
+ font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: rgb(126, 130, 153);
+  width: 180px;
+  height: 38px;
+  font-size: 12px;
+  align-items: center;
+  background-color: rgb(249, 249, 249);
+  border: 1px solid  rgb(249, 249, 249);
+ .ant-input
+ {
+  background-color: rgb(249, 249, 249);
+ }
+  .Search-Box-icon
+  {
+    font-size: 15px;
+    color: rgb(161, 165, 183);
+
+  }
+
+}

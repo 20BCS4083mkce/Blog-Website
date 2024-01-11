@@ -1,0 +1,89 @@
+.ant-layout-sider {
+  overflow: auto;
+  height: 100%;
+  width: 100%;
+  border-radius: 6px;
+  .dashboard-sider-top
+  {
+    margin-top:15px;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+    .dashboard-sider-top-header
+    {
+
+      color: rgba(63,66,84,1);
+      font-family: 'Roboto', sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+    }
+  }
+  .ant-list-item {
+    border-bottom: none;
+  }
+  .ant-layout-sider-children,
+  .ant-spin-nested-loading,.infinite-scroll-component  {
+    background-color: white;
+
+  }
+  .ant-spin-container
+  {
+    margin: 0;
+  }
+  .ant-card,.ant-card-body
+  {
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .ant-list-item
+  {
+    padding: 0px;
+  }
+  .dashboard-sider-list-card {
+    width: 100%;
+    margin: 0;
+    transition: background-color 0.3s;
+    &.selected-card {
+      background-color: rgb(249, 249, 249);
+    }
+
+
+  }
+  .dashboard-sider-list {
+    gap: 1rem;
+    align-items: center;
+    .ant-image-img {
+      width: 120px;
+      height: 80px;
+      border-radius: 6px;
+    }
+    .ant-flex {
+      flex-direction: column;
+      margin-right: 0;
+      .dashboard-sider-list-item-name {
+        color: rgba(24, 28, 50, 1);
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+      }
+      .dashboard-sider-list-item-user-detail {
+        font-family: 'Roboto', sans-serif;
+        color: rgba(126, 130, 153, 1);
+        font-size: 12px;
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+.dashboard-sider {
+  overflow-y: scroll;
+
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.dashboard-sider::-webkit-scrollbar {
+  display: none;
+}
+
